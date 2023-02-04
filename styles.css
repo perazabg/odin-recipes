@@ -1,17 +1,20 @@
 body{
-    background-color: rgb(200,200,200);
+    background-color: rgb(250, 230, 210);
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.body{
+    font-family: monospace;
 }
 
 img{
     width: 350px;
     height: auto;
+    border: 2px solid rgb(90, 65, 55);
    
 }
 
 .pHome{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 24px;
     font-weight: bold;
 }
@@ -24,4 +27,11 @@ ul,
 ol{
     list-style-position: inside ;
     
+}
+.pHome,
+.title{
+    font-family: fantasy;
+}
+.title{
+    font-size: 50px;
 }
