@@ -1,35 +1,58 @@
-/* * {
+* {
     border: 2px solid red;
-  }
-*/  
+}
+
+.homelink{
+    text-align: center;
+}
 body{
     background-color: rgb(250, 230, 210);
-    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    margin-top: auto;
 }
 
 .body{
     font-family: monospace;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 img{
-    width: 350px;
+    width: 400px;
     height: auto;
     border: 5px solid black;
     padding-bottom: -10px;
+}
+
+#recEnchiladas,
+#recMeatballs,
+#recTamales,
+#recRavioli{
+    width: 425px;
+    height: auto;
+}
+
+p{
+    margin-top: -1px;
 }
 
 .pHome{
     font-size: 24px;
     font-weight: bold;
 }
-a{
+#indexBody,
+.titleBox{
     text-align: center;
 
-}
 
-ul,
+}
+ul{
+    list-style-position: inside;
+}
 ol{
-    list-style-position: inside ;
+    list-style-position: outside ;
     
 }
 .pHome,
@@ -38,4 +61,17 @@ ol{
 }
 .title{
     font-size: 50px;
+}
+
+b{
+    background-color: rgb(200, 200, 200);
+}
+
+li{
+    font-size: 12px;
+}
+
+h3{
+    font-size: 18px;
+    text-align: center;
 }
