@@ -23,6 +23,10 @@ body{
     display: flex;
 }
 
+.indxRecipe{
+    flex: 1;
+}
+
 .body{
     font-family: monospace;
     margin-left: 20px;
