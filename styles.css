@@ -5,7 +5,7 @@
     border adds space (even if it’s only a pixel or two) between the margin and the padding.
 */
 * {
-    border: 2px solid red;
+    border: 1px solid red;
 }
 
 .homelink{
@@ -20,7 +20,7 @@ body{
 }
 
 #indexBody{
-    display: inline-block;
+    display: flex;
 }
 
 .body{
