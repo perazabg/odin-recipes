@@ -29,12 +29,9 @@ body{
 
 .flexBox{
     display: flex;
+    flex: 1 1 0;
 }
 
-.flexBox .div{
-    flex: 1 1 0;
-    text-align: center;
-}
 
 .indxRecipe{
     display: block;
