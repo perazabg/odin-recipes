@@ -23,11 +23,11 @@ body{
     margin-top: auto;
 }
 
-#indexBody{
+.flexBox{
     display: flex;
 }
 
-#indexBody .indexRecipe{
+.flexBox .div{
     flex: 1 1 0;
 }
 
