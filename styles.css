@@ -37,7 +37,7 @@ body{
 }
 
 .indxRecipe{
-    flex: 1;
+    display: block;
 }
 
 .body{
