@@ -15,12 +15,13 @@
 .homelink{
     text-align: center;
 }
+
 body{
     background-color: rgb(250, 230, 210);
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 50px;
-    margin-top: auto;
+    margin-top: 0;
 }
 
 .flexBox{
@@ -29,6 +30,7 @@ body{
 
 .flexBox .div{
     flex: 1 1 0;
+    align-items: center;
 }
 
 .indxRecipe{
