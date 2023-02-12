@@ -27,7 +27,7 @@ body{
     display: flex;
 }
 
-#indexBody div{
+#indexBody .indxRecipe{
     flex: 1 1 0;
 }
 
