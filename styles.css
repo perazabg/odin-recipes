@@ -1,8 +1,12 @@
 /*
     THE BOX MODEL
-    padding increases the space between the edge of a box and the content inside of it.
-    margin increases the space between a box and any others that sit next to it.
-    border adds space (even if it’s only a pixel or two) between the margin and the padding.
+        padding increases the space between the edge of a box and the content inside of it.
+        margin increases the space between a box and any others that sit next to it.
+        border adds space (even if it’s only a pixel or two) between the margin and the padding.
+
+    FLEX
+        flex: 1;  is shorthand for flex: 1 1 0;
+        flex: flex-shrink flex-grow flex-basis; 
 */
 * {
     border: 1px solid red;
@@ -21,6 +25,10 @@ body{
 
 #indexBody{
     display: flex;
+}
+
+#indexBody div{
+    flex: 1 1 0;
 }
 
 .indxRecipe{
