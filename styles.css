@@ -1,22 +1,49 @@
 /* * {
     border: 2px solid red;
+/*
+    THE BOX MODEL
+        padding increases the space between the edge of a box and the content inside of it.
+        margin increases the space between a box and any others that sit next to it.
+        border adds space (even if it’s only a pixel or two) between the margin and the padding.
+
+    FLEX
+        flex: 1;  is shorthand for flex: 1 1 0;
+        flex: flex-shrink flex-grow flex-basis; 
+*/
+/* * {
+    border: 1px solid red;
 }
 */
 .homelink{
+    display: block;
+    margin: 20px;
     text-align: center;
 }
+
 body{
     background-color: rgb(250, 230, 210);
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 50px;
-    margin-top: auto;
+    margin-top: 0;
 }
+
+.flexBox{
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+}
+
 
 .body{
     font-family: monospace;
     margin-left: 20px;
     margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgb(225, 225, 225);
+    border: dashed 1px black;
 }
 
 img{
@@ -45,7 +72,6 @@ p{
 #indexBody,
 .titleBox{
     text-align: center;
-
 
 }
 ul{
